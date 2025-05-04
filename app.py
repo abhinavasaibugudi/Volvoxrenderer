@@ -69,7 +69,7 @@ def predict_image(img):
 # Default route
 @app.route("/")
 def home():
-    return "✅ VoxScribe Character Recognition API running."
+    return "VoxScribe Character Recognition API running."
 
 # Prediction endpoint
 @app.route("/predict", methods=["POST"])
